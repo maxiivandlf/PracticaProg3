@@ -9,14 +9,33 @@
       type="text/javascript"
       src="https://code.jquery.com/jquery-3.6.0.min.js"
     ></script>
+    <link rel="stylesheet" href="./src/css/index.css" />
   </head>
   <body>
     <main>
       <section class="formulary">
-        <form action="./src/php/calculator.php" method="post" name="formSueldo">
-          <input type="number" name="" id="" />
+        <form name="formSalary" class="formulary">
+          <label for="category">Elija la categoría a la que pertenece</label>
+          <select name="category" id="category">
+            <option value="">Elija categoría</option>
+            <option value="a">Categoría A</option>
+            <option value="b">Categoría B</option>
+            <option value="c">Categoría C</option>
+            <option value="d">Categoría D</option>
+          </select>
+          <label for="antiquity">Antiguedad:</label>
+          <input
+            type="number"
+            placeholder="En cantidad de años"
+            name="antiquity"
+            id="antiquity"
+          />
+          <button type="button" class="btn" id="btnSend">
+            Calcular sueldo
+          </button>
         </form>
       </section>
+      <section class="results"></section>
     </main>
 
     <script src="./src/js/index.js" />
