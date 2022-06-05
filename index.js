@@ -7,13 +7,12 @@ $('#btnSend').click(function () {
   console.log(path);
 
   $.ajax({
-    url: './src/php/calculator.php',
-    type: 'get',
+    url: 'calculator.php',
+    type: 'POST',
     data: path,
   })
     .done(function (res) {
       $('#results').html(res);
-      console.log(res);
     })
     .fail(function () {
       console.log('error');

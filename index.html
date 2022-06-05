@@ -9,12 +9,12 @@
       type="text/javascript"
       src="https://code.jquery.com/jquery-3.6.0.min.js"
     ></script>
-    <link rel="stylesheet" href="./src/css/index.css" />
+    <link rel="stylesheet" href="./index.css" />
   </head>
   <body>
     <main>
       <section class="formulary">
-        <form name="formSalary" class="formulary">
+        <form class="formulary">
           <label for="category">Elija la categoría a la que pertenece</label>
           <select name="category" id="category">
             <option value="">Elija categoría</option>
@@ -35,9 +35,11 @@
           </button>
         </form>
       </section>
-      <section class="results"></section>
+      <section class="box_results">
+        <h1>Detalles de haberes</h1>
+        <div id="results"></div>
+      </section>
     </main>
-
-    <script src="./src/js/index.js" />
+    <script type="text/javascript" src="./index.js"></script>
   </body>
 </html>
