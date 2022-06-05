@@ -11,4 +11,6 @@
 <p style="color: salmon; font-size: 20px">Realizar un programa en php que calcule el sueldo de un empleado
 en base a las sigientes entradas:</p>
 
-<img src="./src/img/descarga.png"/>
+<img src="./descarga.png"/>
+
+<a href="https://github.com/maxiivandlf" target="_blank">Link GitHub </a>

@@ -34,5 +34,4 @@ echo "<p>Descuento Obra Social: $obraSocial</p>";
 echo "<h2>Totales</h2>";
 echo "<p>Total de Haberes $totalHaberes</p>";
 echo "<p>Total de Descuentos $totalDescuentos</p>";
-
 echo "<h3>Neto a cobrar: $netoHaberes</h3>";
