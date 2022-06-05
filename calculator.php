@@ -38,10 +38,10 @@ if(isset($_POST['cat']) and isset($_POST['ant'])){
             echo "<p>Total de Descuentos $totalDescuentos</p>";
             echo "<h3>Neto a cobrar: $netoHaberes</h3>";
         }else{
-            echo "Antiguedad no validas";
+            echo "Antiguedad no valida";
             }
     }else{
-        echo "Categoría no validas";
+        echo "Categoría no valida";
     }
     
 }
