@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CRUD Maximiliano de la Fuente</title>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+    ></script>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <main class="content_principal">
+      <button type="button" class="btn btn-listar" id="btn-listar">
+        Listar todos los alumnos
+      </button>
+      <form>
+        <h3>Consulta del formulario</h3>
+        <label for="materia">Materia</label>
+        <select name="materia" id="materia">
+          <option value="AM2">Analisis matemático 2</option>
+          <option value="PROG3">Programación 3</option>
+          <option value="BD">Bases de datos</option>
+        </select>
+        <label for="alumno">Alumno</label>
+        <input type="text" id="alumno" name="alumno" />
+        <button type="button" class="btn btn-consulta" id="btn-consulta">
+          Consultar
+        </button>
+      </form>
+      <div class="conteiner">
+        <h3>Registros</h3>
+        <div class="contenedor_respuesta" id="resultado"></div>
+        <h3>Notas del Alumno</h3>
+        <div class="notas" id="notas_respon"></div>
+      </div>
+    </main>
+
+    <script type="text/javascript" src="./index.js"></script>
+  </body>
+</html>
